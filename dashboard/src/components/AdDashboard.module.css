@@ -1,0 +1,61 @@
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.text {
+  line-height: 1.9rem;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: justify;
+}
+
+.chartWrapper {
+  max-width: 800px;
+  margin: 40px auto ;
+}
+
+.addContainer {
+  text-align: center;
+}
+
+.addBtn {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 20px;
+  width: 160px;
+  border-radius: 30px;
+  border: 2px solid blueviolet;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 250ms cubic-bezier(0.19, 1, 0.22, 1);
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.addBtn:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.addForm {
+  text-align: start;
+  height: 400px;
+  width: 600px;
+  border: 2px solid blueviolet;
+  border-radius: 30px;
+  padding: 40px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 140px 50px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0px 4px 140px 50px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 4px 140px 50px rgba(0,0,0,0.25);
+}
